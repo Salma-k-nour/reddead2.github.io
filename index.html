@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    
+    <title>ReD DEAD REDEMPTION2</title>
+</head>
+<body>
+    <div class="container">
+    <!-- start header  -->
+        <header>    
+            <a href="#home"><img src="pics/logo.png" alt="" class="logo"></a>
+            
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#characters">Characters</a></li>
+                    <li><a href="#new">new</a></li>
+                    <li><a href="#store">store</a></li>
+                    <li><a href="#video">video</a></li>
+                </ul>
+            </nav>
+        <i class="fa-solid fa-bars toggle-menu"></i>  
+        </header>
+    <!-- end header -->
+    <!-- start home -->
+    <div class="landing" id="home" style="background-image: url('pics/home.png');">
+        <div class="content">
+                <h1>red dead redemption 2</h1>
+                <p>will arrive on october 26.2018</p>
+                <div class="btn">
+                    <button class="preorder-button">Pre-Order Now</button>
+                </div>
+        </div>
+    </div>
+    </div>
+    <!-- end home -->
+    <!-- start characters -->
+    <div class="characters-page" id="characters">
+        <div class="slider-container" style="background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('pics/charbg.png');" >
+            <div class="slider" id="slider">
+                <div class="slide">
+                    <img src="pics/john.png" alt="Character 1" class="john-img">
+                    <div class="content">
+                        <h2>john marston</h2>
+                        <p><br>He is appearing as a central character and the primary protagonist of Red Dead Redemption and its non-canon Undead Nightmare expansion pack, and is a central character.</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="pics/Arthur.png" alt="Character 2">
+                    <div class="content">
+                        <h2>arthur morgan</h2>
+                        <p><br>He is a notorious outlaw who serves as the lead enforcer of the Van der Linde gang,</p>
+                    </div>
+                </div>
+                <div class="slide3">
+                    <img src="pics/dutch.png" alt="Character 3">
+                    <div class="content">
+                        <h2>dutch van der linde</h2>
+                        <p><br>is an outlaw having a gang consisting with John Marston, Arthur Morgan, Micah Bell,and several others who met Dutch and joined also.</p>
+                    </div>    
+                </div>
+            </div>
+            <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+            <button class="next" onclick="moveSlide(1)">&#10095;</button>
+        </div>
+        </div>
+        <!-- end characters -->
+        <!-- start new -->
+        <div class="new" id="new">
+            <div class="section">
+                <div class="turkey">
+                    <img src="pics/turkey.png" alt="">
+                    <div class="content">
+                        <h1>cathartes aura septentrionalis</h1>
+                        <h2><br>the eastern turkey vultare</h2>
+                        <p><br>The Eastern Turkey Vulture is native to New Hanover and Lemoyne. They prey on reptiles, birds, fish and amphibians. When hunting, they prefer freshly dead animals due to the meat being softer. The Varmint Rifle is considered to be the best for hunting vultures and other birds this size. Feathers from Eastern Turkey Vultures can be used for crafting. Their gamey meat can consumed.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="bear">
+                    <img src="pics/bear.png" alt="">
+                    <div class="content">
+                        <h1>ursus arctos</h1>
+                        <h2><br>the North American Brown Bear </h2>
+                        <p><br>Grizzly Bears are endemic to Grizzlies East. As an omnivore, its diet ranges from berries, roots, and grasses to deer, elk, fish, and carrion. The easiest way to take down an animal of this size is with a rifle with either High Velocity or Express Bullets. Bear meat, fat and claws can be used for food or materials to craft with.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="horse">
+                    <img src="pics/horse.png" alt="">
+                    <div class="content">
+                        <h1>equus caballus</h1>
+                        <h2><br>the morgan hoorse</h2>
+                        <p><br>Morgans are known for having poor health and Acceleration; their Speed and Stamina are average, making them suitable for shorter journeys. Due to their small size, Morgans are extremely agile and maneuverable despite only having Standard handling. This makes them useful in dense forests and narrow mountain trails.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="deer">
+                    <img src="pics/deer.png" alt="">
+                    <div class="content">
+                        <h1>odocoileus virginianus</h1>
+                        <h2><br>the Whitetail Buck</h2>
+                        <p><br>The Whitetail Buck can be found in forested areas across the states. It is a herbivore, and consumes nuts, buds, twigs, and green plants. Keeping your distance when hunting deer can increase your chances of a kill. Long range weapons, like a rifle or a Bow with Poison Arrows, are the most successful weapons for hunting. Its venison can be eaten.</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <!-- end new -->
+        <!-- start store -->
+        <main id="store" class="store">
+        <div class="product">
+            <img src="pics/metal.png" alt="Weapon 1">
+            <h2>Metal Earth Maxim Gun 3D Puzzle</h2>
+            <p>Metal Earth 3D Puzzle for you to build.</p>
+            <p class="price">$99.99</p>
+            <button class="buy-button">Buy Now</button>
+        </div>
+        <div class="product">
+            <img src="pics/matches.png" alt="Weapon 2">
+            <h2>Engraved Match Box Slipcase</h2>
+            <p>Protect your matchbox with this metal matchbox slipcase.</p>
+            <p class="price">$129.99</p>
+            <button class="buy-button">Buy Now</button>
+        </div>
+
+        <div class="product">
+            <img src="pics/keychain.png" alt="Weapon 3">
+            <h2>Rockstar Games Logo Keychain</h2>
+            <p>Keep your keys safely together on these solid metal keyrings.</p>
+            <p class="price">$89.99</p>
+            <button class="buy-button">Buy Now</button>
+        </div>
+        <div class="product">
+            <img src="pics/domino.png" alt="Weapon 3">
+            <h2>Domino Set </h2>
+            <p>Lined with plush padded felt, this 28 piece domino set comes in a fire-branded.</p>
+            <p class="price">$89.99</p>
+            <button class="buy-button">Buy Now</button>
+        </div>
+        <div class="product">
+            <img src="pics/candle.png" alt="Weapon 3">
+            <h2>Dynamite Candle by Joya</h2>
+            <p>Blow open your nostrils with this blood orange, incense, amber, rockrose, smoked cedar, sandalwood, violet leaf and juniper tar-scented, black wax candle fashioned to represent sticks of dynamite.</p>
+            <p class="price">$89.99</p>
+            <button class="buy-button">Buy Now</button>
+        </div>
+        <div class="product">
+            <img src="pics/opener.png" alt="Weapon 3">
+            <h2>Bottle Opener</h2>
+            <p>Open all your bottled brews and more with this ornate metal bottle opener.</p>
+            <p class="price">$89.99</p>
+            <button class="buy-button">Buy Now</button>
+        </div>
+        <div class="product">
+            <img src="pics/usb.png" alt="Weapon 3">
+            <h2>Dynamite USB Charger</h2>
+            <p>Give your new fandangled devices a recharge with this USB battery stick.</p>
+            <p class="price">$89.99</p>
+            <button class="buy-button">Buy Now</button>
+        </div>
+        <div class="product">
+            <img src="pics/buket.png" alt="Weapon 3">
+            <h2> Barrel Black Wax Candle</h2>
+            <p>Open your nostrils with this blood orange, incense, amber, rockrose, smoked cedar, sandalwood, violet leaf and juniper tar-scented, black wax candle in the shape of an old fashioned barrel.</p>
+            <p class="price">$89.99</p>
+            <button class="buy-button">Buy Now</button>
+        </div>
+        <div class="product">
+            <img src="pics/cd.png" alt="Weapon 3">
+            <h2>Original Score Vinyl</h2>
+            <p>This double LP set comes pressed on transparent vinyl discs, gatefold sleeve + printed inner sleeves.</p>
+            <p class="price">$89.99</p>
+            <button class="buy-button">Buy Now</button>
+        </div>
+    </main>
+    <!-- end store -->
+    <!-- start video -->
+    <div class="video-page" id="video" style="background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('pics/vidimg.png');" >
+        <div class="video-section">
+        <video controls>
+            <source src="pics/video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    </div>
+    <!-- end trailer -->
+    <!-- start footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="social-icon">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+            <p class="copy-right">&copy; 2024 <span>Rockstar</span> All Rights Reserved</p>
+
+        </div>
+    </footer>
+    <!-- end footer -->
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
